@@ -1,0 +1,28 @@
+body {
+    background-color: brown;
+}
+
+p {
+    color: aqua;
+    font-size: 10px;
+}
+
+div p {
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    text-align: center;
+    padding: 5%;
+}
+
+@media(max-width:600px) {
+    body {
+        background-color: blue;
+
+    }
+}
+ 
+@media(max-width:1200px) {
+    body {
+        background-color: pink;
+    }
+}
